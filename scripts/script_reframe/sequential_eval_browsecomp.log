@@ -1,0 +1,802 @@
+2025-11-08 22:46:28,698 - INFO - ================================================================================
+2025-11-08 22:46:28,698 - INFO - 🚀 Starting Sequential Evaluation for HalluBench
+2025-11-08 22:46:28,698 - INFO - ================================================================================
+2025-11-08 22:46:28,698 - INFO - 📁 Script directory: /data/zyh/DeepResearch/HalluBench_backup_0828/HalluDetector/script_reframe
+2025-11-08 22:46:28,698 - INFO - 📁 JSON directory: /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json
+2025-11-08 22:46:28,698 - INFO - 📁 Results directory: /data/zyh/DeepResearch/HalluBench_backup_0828/HalluDetector/results/train_gemini/browsecomp/gemini/before_update
+2025-11-08 22:46:28,698 - INFO - 🎮 GPU configuration: 4 GPUs, IDs: 0,1,2,3
+2025-11-08 22:46:28,698 - INFO - 📊 Found 92 JSON files to process
+2025-11-08 22:46:28,698 - INFO - 
+============================================================
+2025-11-08 22:46:28,698 - INFO - 📝 Processing file 1/92: Art_1.json
+2025-11-08 22:46:28,698 - INFO - ============================================================
+2025-11-08 22:46:28,698 - INFO - ⏭️ Skipping Art_1.json - results already exist
+2025-11-08 22:46:28,698 - INFO - 
+============================================================
+2025-11-08 22:46:28,698 - INFO - 📝 Processing file 2/92: Art_2.json
+2025-11-08 22:46:28,698 - INFO - ============================================================
+2025-11-08 22:46:28,698 - INFO - ⏭️ Skipping Art_2.json - results already exist
+2025-11-08 22:46:28,698 - INFO - 
+============================================================
+2025-11-08 22:46:28,698 - INFO - 📝 Processing file 3/92: Art_3.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Art_3.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 4/92: Art_4.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Art_4.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 5/92: Art_5.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Art_5.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 6/92: Art_6.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Art_6.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 7/92: Art_7.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Art_7.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 8/92: Art_8.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Art_8.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 9/92: Geography_1.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Geography_1.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 10/92: Geography_2.json
+2025-11-08 22:46:28,699 - INFO - ============================================================
+2025-11-08 22:46:28,699 - INFO - ⏭️ Skipping Geography_2.json - results already exist
+2025-11-08 22:46:28,699 - INFO - 
+============================================================
+2025-11-08 22:46:28,699 - INFO - 📝 Processing file 11/92: Geography_4.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping Geography_4.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 12/92: Geography_5.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping Geography_5.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 13/92: Geography_6.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping Geography_6.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 14/92: Geography_7.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping Geography_7.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 15/92: History_1.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping History_1.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 16/92: History_10.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping History_10.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 17/92: History_2.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping History_2.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 18/92: History_3.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping History_3.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,700 - INFO - 📝 Processing file 19/92: History_4.json
+2025-11-08 22:46:28,700 - INFO - ============================================================
+2025-11-08 22:46:28,700 - INFO - ⏭️ Skipping History_4.json - results already exist
+2025-11-08 22:46:28,700 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 20/92: History_5.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping History_5.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 21/92: History_6.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping History_6.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 22/92: History_7.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping History_7.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 23/92: History_8.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping History_8.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 24/92: History_9.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping History_9.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 25/92: Music_1.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping Music_1.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 26/92: Music_10.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping Music_10.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 27/92: Music_2.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping Music_2.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,701 - INFO - 📝 Processing file 28/92: Music_3.json
+2025-11-08 22:46:28,701 - INFO - ============================================================
+2025-11-08 22:46:28,701 - INFO - ⏭️ Skipping Music_3.json - results already exist
+2025-11-08 22:46:28,701 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 29/92: Music_4.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Music_4.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 30/92: Music_5.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Music_5.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 31/92: Music_6.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Music_6.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 32/92: Music_7.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Music_7.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 33/92: Music_8.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Music_8.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 34/92: Music_9.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Music_9.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 35/92: Other_1.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Other_1.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 36/92: Other_10.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Other_10.json - results already exist
+2025-11-08 22:46:28,702 - INFO - 
+============================================================
+2025-11-08 22:46:28,702 - INFO - 📝 Processing file 37/92: Other_11.json
+2025-11-08 22:46:28,702 - INFO - ============================================================
+2025-11-08 22:46:28,702 - INFO - ⏭️ Skipping Other_11.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 38/92: Other_12.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_12.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 39/92: Other_13.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_13.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 40/92: Other_14.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_14.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 41/92: Other_15.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_15.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 42/92: Other_2.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_2.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 43/92: Other_3.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_3.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 44/92: Other_4.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_4.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 45/92: Other_5.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_5.json - results already exist
+2025-11-08 22:46:28,703 - INFO - 
+============================================================
+2025-11-08 22:46:28,703 - INFO - 📝 Processing file 46/92: Other_6.json
+2025-11-08 22:46:28,703 - INFO - ============================================================
+2025-11-08 22:46:28,703 - INFO - ⏭️ Skipping Other_6.json - results already exist
+2025-11-08 22:46:28,704 - INFO - 
+============================================================
+2025-11-08 22:46:28,704 - INFO - 📝 Processing file 47/92: Other_7.json
+2025-11-08 22:46:28,704 - INFO - ============================================================
+2025-11-08 22:46:28,704 - INFO - 🚀 Starting evaluation for: Other_7.json
+2025-11-08 22:46:28,704 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Other_7.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 00:02:41,682 - INFO - ✅ Successfully completed evaluation for: Other_7.json (took 76.22 minutes)
+2025-11-09 00:02:41,682 - INFO - 📊 Progress: 47/92 files processed
+2025-11-09 00:02:41,682 - INFO - ✅ Successful: 1
+2025-11-09 00:02:41,682 - INFO - ❌ Failed: 0
+2025-11-09 00:02:41,682 - INFO - ⏭️ Skipped: 46
+2025-11-09 00:02:41,682 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 00:02:46,687 - INFO - 
+============================================================
+2025-11-09 00:02:46,688 - INFO - 📝 Processing file 48/92: Other_8.json
+2025-11-09 00:02:46,688 - INFO - ============================================================
+2025-11-09 00:02:46,688 - INFO - 🚀 Starting evaluation for: Other_8.json
+2025-11-09 00:02:46,688 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Other_8.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 01:10:35,044 - INFO - ✅ Successfully completed evaluation for: Other_8.json (took 67.81 minutes)
+2025-11-09 01:10:35,044 - INFO - 📊 Progress: 48/92 files processed
+2025-11-09 01:10:35,044 - INFO - ✅ Successful: 2
+2025-11-09 01:10:35,044 - INFO - ❌ Failed: 0
+2025-11-09 01:10:35,044 - INFO - ⏭️ Skipped: 46
+2025-11-09 01:10:35,044 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 01:10:40,050 - INFO - 
+============================================================
+2025-11-09 01:10:40,050 - INFO - 📝 Processing file 49/92: Other_9.json
+2025-11-09 01:10:40,050 - INFO - ============================================================
+2025-11-09 01:10:40,050 - INFO - 🚀 Starting evaluation for: Other_9.json
+2025-11-09 01:10:40,050 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Other_9.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 01:56:43,123 - INFO - ✅ Successfully completed evaluation for: Other_9.json (took 46.05 minutes)
+2025-11-09 01:56:43,124 - INFO - 📊 Progress: 49/92 files processed
+2025-11-09 01:56:43,124 - INFO - ✅ Successful: 3
+2025-11-09 01:56:43,124 - INFO - ❌ Failed: 0
+2025-11-09 01:56:43,124 - INFO - ⏭️ Skipped: 46
+2025-11-09 01:56:43,124 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 01:56:48,129 - INFO - 
+============================================================
+2025-11-09 01:56:48,129 - INFO - 📝 Processing file 50/92: Politics_1.json
+2025-11-09 01:56:48,130 - INFO - ============================================================
+2025-11-09 01:56:48,130 - INFO - 🚀 Starting evaluation for: Politics_1.json
+2025-11-09 01:56:48,130 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Politics_1.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 02:50:50,186 - INFO - ✅ Successfully completed evaluation for: Politics_1.json (took 54.03 minutes)
+2025-11-09 02:50:50,186 - INFO - 📊 Progress: 50/92 files processed
+2025-11-09 02:50:50,186 - INFO - ✅ Successful: 4
+2025-11-09 02:50:50,186 - INFO - ❌ Failed: 0
+2025-11-09 02:50:50,186 - INFO - ⏭️ Skipped: 46
+2025-11-09 02:50:50,186 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 02:50:55,191 - INFO - 
+============================================================
+2025-11-09 02:50:55,192 - INFO - 📝 Processing file 51/92: Politics_2.json
+2025-11-09 02:50:55,192 - INFO - ============================================================
+2025-11-09 02:50:55,192 - INFO - 🚀 Starting evaluation for: Politics_2.json
+2025-11-09 02:50:55,192 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Politics_2.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 03:20:53,820 - INFO - ✅ Successfully completed evaluation for: Politics_2.json (took 29.98 minutes)
+2025-11-09 03:20:53,821 - INFO - 📊 Progress: 51/92 files processed
+2025-11-09 03:20:53,821 - INFO - ✅ Successful: 5
+2025-11-09 03:20:53,821 - INFO - ❌ Failed: 0
+2025-11-09 03:20:53,821 - INFO - ⏭️ Skipped: 46
+2025-11-09 03:20:53,821 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 03:20:58,826 - INFO - 
+============================================================
+2025-11-09 03:20:58,826 - INFO - 📝 Processing file 52/92: Politics_3.json
+2025-11-09 03:20:58,826 - INFO - ============================================================
+2025-11-09 03:20:58,827 - INFO - 🚀 Starting evaluation for: Politics_3.json
+2025-11-09 03:20:58,827 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Politics_3.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 04:01:55,274 - INFO - ✅ Successfully completed evaluation for: Politics_3.json (took 40.94 minutes)
+2025-11-09 04:01:55,274 - INFO - 📊 Progress: 52/92 files processed
+2025-11-09 04:01:55,274 - INFO - ✅ Successful: 6
+2025-11-09 04:01:55,274 - INFO - ❌ Failed: 0
+2025-11-09 04:01:55,274 - INFO - ⏭️ Skipped: 46
+2025-11-09 04:01:55,275 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 04:02:00,280 - INFO - 
+============================================================
+2025-11-09 04:02:00,280 - INFO - 📝 Processing file 53/92: Politics_4.json
+2025-11-09 04:02:00,280 - INFO - ============================================================
+2025-11-09 04:02:00,280 - INFO - 🚀 Starting evaluation for: Politics_4.json
+2025-11-09 04:02:00,280 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Politics_4.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 04:29:06,136 - INFO - ✅ Successfully completed evaluation for: Politics_4.json (took 27.10 minutes)
+2025-11-09 04:29:06,136 - INFO - 📊 Progress: 53/92 files processed
+2025-11-09 04:29:06,137 - INFO - ✅ Successful: 7
+2025-11-09 04:29:06,137 - INFO - ❌ Failed: 0
+2025-11-09 04:29:06,137 - INFO - ⏭️ Skipped: 46
+2025-11-09 04:29:06,137 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 04:29:11,142 - INFO - 
+============================================================
+2025-11-09 04:29:11,142 - INFO - 📝 Processing file 54/92: ST_1.json
+2025-11-09 04:29:11,142 - INFO - ============================================================
+2025-11-09 04:29:11,142 - INFO - 🚀 Starting evaluation for: ST_1.json
+2025-11-09 04:29:11,143 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_1.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 05:26:53,654 - INFO - ✅ Successfully completed evaluation for: ST_1.json (took 57.71 minutes)
+2025-11-09 05:26:53,655 - INFO - 📊 Progress: 54/92 files processed
+2025-11-09 05:26:53,655 - INFO - ✅ Successful: 8
+2025-11-09 05:26:53,655 - INFO - ❌ Failed: 0
+2025-11-09 05:26:53,655 - INFO - ⏭️ Skipped: 46
+2025-11-09 05:26:53,655 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 05:26:58,660 - INFO - 
+============================================================
+2025-11-09 05:26:58,660 - INFO - 📝 Processing file 55/92: ST_10.json
+2025-11-09 05:26:58,660 - INFO - ============================================================
+2025-11-09 05:26:58,661 - INFO - 🚀 Starting evaluation for: ST_10.json
+2025-11-09 05:26:58,661 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_10.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 05:51:42,349 - INFO - ✅ Successfully completed evaluation for: ST_10.json (took 24.73 minutes)
+2025-11-09 05:51:42,349 - INFO - 📊 Progress: 55/92 files processed
+2025-11-09 05:51:42,349 - INFO - ✅ Successful: 9
+2025-11-09 05:51:42,349 - INFO - ❌ Failed: 0
+2025-11-09 05:51:42,349 - INFO - ⏭️ Skipped: 46
+2025-11-09 05:51:42,349 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 05:51:47,354 - INFO - 
+============================================================
+2025-11-09 05:51:47,355 - INFO - 📝 Processing file 56/92: ST_11.json
+2025-11-09 05:51:47,355 - INFO - ============================================================
+2025-11-09 05:51:47,355 - INFO - 🚀 Starting evaluation for: ST_11.json
+2025-11-09 05:51:47,355 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_11.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 06:21:04,991 - INFO - ✅ Successfully completed evaluation for: ST_11.json (took 29.29 minutes)
+2025-11-09 06:21:04,991 - INFO - 📊 Progress: 56/92 files processed
+2025-11-09 06:21:04,991 - INFO - ✅ Successful: 10
+2025-11-09 06:21:04,991 - INFO - ❌ Failed: 0
+2025-11-09 06:21:04,992 - INFO - ⏭️ Skipped: 46
+2025-11-09 06:21:04,992 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 06:21:09,997 - INFO - 
+============================================================
+2025-11-09 06:21:09,997 - INFO - 📝 Processing file 57/92: ST_2.json
+2025-11-09 06:21:09,997 - INFO - ============================================================
+2025-11-09 06:21:09,997 - INFO - 🚀 Starting evaluation for: ST_2.json
+2025-11-09 06:21:09,997 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_2.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 06:56:09,480 - INFO - ✅ Successfully completed evaluation for: ST_2.json (took 34.99 minutes)
+2025-11-09 06:56:09,480 - INFO - 📊 Progress: 57/92 files processed
+2025-11-09 06:56:09,480 - INFO - ✅ Successful: 11
+2025-11-09 06:56:09,480 - INFO - ❌ Failed: 0
+2025-11-09 06:56:09,480 - INFO - ⏭️ Skipped: 46
+2025-11-09 06:56:09,480 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 06:56:14,486 - INFO - 
+============================================================
+2025-11-09 06:56:14,486 - INFO - 📝 Processing file 58/92: ST_3.json
+2025-11-09 06:56:14,486 - INFO - ============================================================
+2025-11-09 06:56:14,486 - INFO - 🚀 Starting evaluation for: ST_3.json
+2025-11-09 06:56:14,486 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_3.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 07:57:14,647 - INFO - ✅ Successfully completed evaluation for: ST_3.json (took 61.00 minutes)
+2025-11-09 07:57:14,648 - INFO - 📊 Progress: 58/92 files processed
+2025-11-09 07:57:14,648 - INFO - ✅ Successful: 12
+2025-11-09 07:57:14,648 - INFO - ❌ Failed: 0
+2025-11-09 07:57:14,648 - INFO - ⏭️ Skipped: 46
+2025-11-09 07:57:14,648 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 07:57:19,653 - INFO - 
+============================================================
+2025-11-09 07:57:19,653 - INFO - 📝 Processing file 59/92: ST_4.json
+2025-11-09 07:57:19,653 - INFO - ============================================================
+2025-11-09 07:57:19,653 - INFO - 🚀 Starting evaluation for: ST_4.json
+2025-11-09 07:57:19,653 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_4.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 08:57:29,427 - INFO - ✅ Successfully completed evaluation for: ST_4.json (took 60.16 minutes)
+2025-11-09 08:57:29,428 - INFO - 📊 Progress: 59/92 files processed
+2025-11-09 08:57:29,428 - INFO - ✅ Successful: 13
+2025-11-09 08:57:29,428 - INFO - ❌ Failed: 0
+2025-11-09 08:57:29,428 - INFO - ⏭️ Skipped: 46
+2025-11-09 08:57:29,428 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 08:57:34,433 - INFO - 
+============================================================
+2025-11-09 08:57:34,433 - INFO - 📝 Processing file 60/92: ST_5.json
+2025-11-09 08:57:34,433 - INFO - ============================================================
+2025-11-09 08:57:34,434 - INFO - 🚀 Starting evaluation for: ST_5.json
+2025-11-09 08:57:34,434 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_5.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 09:45:38,438 - INFO - ✅ Successfully completed evaluation for: ST_5.json (took 48.07 minutes)
+2025-11-09 09:45:38,439 - INFO - 📊 Progress: 60/92 files processed
+2025-11-09 09:45:38,439 - INFO - ✅ Successful: 14
+2025-11-09 09:45:38,439 - INFO - ❌ Failed: 0
+2025-11-09 09:45:38,439 - INFO - ⏭️ Skipped: 46
+2025-11-09 09:45:38,439 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 09:45:43,444 - INFO - 
+============================================================
+2025-11-09 09:45:43,444 - INFO - 📝 Processing file 61/92: ST_6.json
+2025-11-09 09:45:43,444 - INFO - ============================================================
+2025-11-09 09:45:43,444 - INFO - 🚀 Starting evaluation for: ST_6.json
+2025-11-09 09:45:43,445 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_6.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 10:09:03,700 - INFO - ✅ Successfully completed evaluation for: ST_6.json (took 23.34 minutes)
+2025-11-09 10:09:03,700 - INFO - 📊 Progress: 61/92 files processed
+2025-11-09 10:09:03,701 - INFO - ✅ Successful: 15
+2025-11-09 10:09:03,701 - INFO - ❌ Failed: 0
+2025-11-09 10:09:03,701 - INFO - ⏭️ Skipped: 46
+2025-11-09 10:09:03,701 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 10:09:08,706 - INFO - 
+============================================================
+2025-11-09 10:09:08,706 - INFO - 📝 Processing file 62/92: ST_7.json
+2025-11-09 10:09:08,706 - INFO - ============================================================
+2025-11-09 10:09:08,706 - INFO - 🚀 Starting evaluation for: ST_7.json
+2025-11-09 10:09:08,707 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_7.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 10:47:33,352 - INFO - ✅ Successfully completed evaluation for: ST_7.json (took 38.41 minutes)
+2025-11-09 10:47:33,353 - INFO - 📊 Progress: 62/92 files processed
+2025-11-09 10:47:33,353 - INFO - ✅ Successful: 16
+2025-11-09 10:47:33,353 - INFO - ❌ Failed: 0
+2025-11-09 10:47:33,353 - INFO - ⏭️ Skipped: 46
+2025-11-09 10:47:33,353 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 10:47:38,358 - INFO - 
+============================================================
+2025-11-09 10:47:38,359 - INFO - 📝 Processing file 63/92: ST_8.json
+2025-11-09 10:47:38,359 - INFO - ============================================================
+2025-11-09 10:47:38,359 - INFO - 🚀 Starting evaluation for: ST_8.json
+2025-11-09 10:47:38,359 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_8.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 11:58:29,012 - INFO - ✅ Successfully completed evaluation for: ST_8.json (took 70.84 minutes)
+2025-11-09 11:58:29,012 - INFO - 📊 Progress: 63/92 files processed
+2025-11-09 11:58:29,012 - INFO - ✅ Successful: 17
+2025-11-09 11:58:29,012 - INFO - ❌ Failed: 0
+2025-11-09 11:58:29,012 - INFO - ⏭️ Skipped: 46
+2025-11-09 11:58:29,012 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 11:58:34,018 - INFO - 
+============================================================
+2025-11-09 11:58:34,018 - INFO - 📝 Processing file 64/92: ST_9.json
+2025-11-09 11:58:34,018 - INFO - ============================================================
+2025-11-09 11:58:34,018 - INFO - 🚀 Starting evaluation for: ST_9.json
+2025-11-09 11:58:34,018 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/ST_9.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 12:15:37,059 - INFO - ✅ Successfully completed evaluation for: ST_9.json (took 17.05 minutes)
+2025-11-09 12:15:37,060 - INFO - 📊 Progress: 64/92 files processed
+2025-11-09 12:15:37,060 - INFO - ✅ Successful: 18
+2025-11-09 12:15:37,060 - INFO - ❌ Failed: 0
+2025-11-09 12:15:37,060 - INFO - ⏭️ Skipped: 46
+2025-11-09 12:15:37,060 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 12:15:42,066 - INFO - 
+============================================================
+2025-11-09 12:15:42,066 - INFO - 📝 Processing file 65/92: Sports_1.json
+2025-11-09 12:15:42,066 - INFO - ============================================================
+2025-11-09 12:15:42,066 - INFO - 🚀 Starting evaluation for: Sports_1.json
+2025-11-09 12:15:42,066 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_1.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 12:53:03,579 - INFO - ✅ Successfully completed evaluation for: Sports_1.json (took 37.36 minutes)
+2025-11-09 12:53:03,579 - INFO - 📊 Progress: 65/92 files processed
+2025-11-09 12:53:03,579 - INFO - ✅ Successful: 19
+2025-11-09 12:53:03,579 - INFO - ❌ Failed: 0
+2025-11-09 12:53:03,579 - INFO - ⏭️ Skipped: 46
+2025-11-09 12:53:03,579 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 12:53:08,584 - INFO - 
+============================================================
+2025-11-09 12:53:08,585 - INFO - 📝 Processing file 66/92: Sports_10.json
+2025-11-09 12:53:08,585 - INFO - ============================================================
+2025-11-09 12:53:08,585 - INFO - 🚀 Starting evaluation for: Sports_10.json
+2025-11-09 12:53:08,585 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_10.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 13:47:49,646 - INFO - ✅ Successfully completed evaluation for: Sports_10.json (took 54.68 minutes)
+2025-11-09 13:47:49,647 - INFO - 📊 Progress: 66/92 files processed
+2025-11-09 13:47:49,647 - INFO - ✅ Successful: 20
+2025-11-09 13:47:49,647 - INFO - ❌ Failed: 0
+2025-11-09 13:47:49,647 - INFO - ⏭️ Skipped: 46
+2025-11-09 13:47:49,647 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 13:47:54,652 - INFO - 
+============================================================
+2025-11-09 13:47:54,652 - INFO - 📝 Processing file 67/92: Sports_11.json
+2025-11-09 13:47:54,652 - INFO - ============================================================
+2025-11-09 13:47:54,653 - INFO - 🚀 Starting evaluation for: Sports_11.json
+2025-11-09 13:47:54,653 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_11.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 14:06:20,292 - INFO - ✅ Successfully completed evaluation for: Sports_11.json (took 18.43 minutes)
+2025-11-09 14:06:20,292 - INFO - 📊 Progress: 67/92 files processed
+2025-11-09 14:06:20,292 - INFO - ✅ Successful: 21
+2025-11-09 14:06:20,292 - INFO - ❌ Failed: 0
+2025-11-09 14:06:20,292 - INFO - ⏭️ Skipped: 46
+2025-11-09 14:06:20,292 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 14:06:25,298 - INFO - 
+============================================================
+2025-11-09 14:06:25,298 - INFO - 📝 Processing file 68/92: Sports_2.json
+2025-11-09 14:06:25,298 - INFO - ============================================================
+2025-11-09 14:06:25,298 - INFO - 🚀 Starting evaluation for: Sports_2.json
+2025-11-09 14:06:25,298 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_2.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 14:25:05,456 - INFO - ✅ Successfully completed evaluation for: Sports_2.json (took 18.67 minutes)
+2025-11-09 14:25:05,456 - INFO - 📊 Progress: 68/92 files processed
+2025-11-09 14:25:05,456 - INFO - ✅ Successful: 22
+2025-11-09 14:25:05,456 - INFO - ❌ Failed: 0
+2025-11-09 14:25:05,456 - INFO - ⏭️ Skipped: 46
+2025-11-09 14:25:05,456 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 14:25:10,462 - INFO - 
+============================================================
+2025-11-09 14:25:10,462 - INFO - 📝 Processing file 69/92: Sports_3.json
+2025-11-09 14:25:10,462 - INFO - ============================================================
+2025-11-09 14:25:10,462 - INFO - 🚀 Starting evaluation for: Sports_3.json
+2025-11-09 14:25:10,462 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_3.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 15:19:35,439 - INFO - ✅ Successfully completed evaluation for: Sports_3.json (took 54.42 minutes)
+2025-11-09 15:19:35,439 - INFO - 📊 Progress: 69/92 files processed
+2025-11-09 15:19:35,439 - INFO - ✅ Successful: 23
+2025-11-09 15:19:35,439 - INFO - ❌ Failed: 0
+2025-11-09 15:19:35,439 - INFO - ⏭️ Skipped: 46
+2025-11-09 15:19:35,439 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 15:19:40,444 - INFO - 
+============================================================
+2025-11-09 15:19:40,445 - INFO - 📝 Processing file 70/92: Sports_4.json
+2025-11-09 15:19:40,445 - INFO - ============================================================
+2025-11-09 15:19:40,445 - INFO - 🚀 Starting evaluation for: Sports_4.json
+2025-11-09 15:19:40,445 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_4.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 15:53:47,405 - INFO - ✅ Successfully completed evaluation for: Sports_4.json (took 34.12 minutes)
+2025-11-09 15:53:47,405 - INFO - 📊 Progress: 70/92 files processed
+2025-11-09 15:53:47,405 - INFO - ✅ Successful: 24
+2025-11-09 15:53:47,405 - INFO - ❌ Failed: 0
+2025-11-09 15:53:47,405 - INFO - ⏭️ Skipped: 46
+2025-11-09 15:53:47,405 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 15:53:52,410 - INFO - 
+============================================================
+2025-11-09 15:53:52,410 - INFO - 📝 Processing file 71/92: Sports_5.json
+2025-11-09 15:53:52,411 - INFO - ============================================================
+2025-11-09 15:53:52,411 - INFO - 🚀 Starting evaluation for: Sports_5.json
+2025-11-09 15:53:52,411 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_5.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 16:24:10,470 - INFO - ✅ Successfully completed evaluation for: Sports_5.json (took 30.30 minutes)
+2025-11-09 16:24:10,471 - INFO - 📊 Progress: 71/92 files processed
+2025-11-09 16:24:10,471 - INFO - ✅ Successful: 25
+2025-11-09 16:24:10,471 - INFO - ❌ Failed: 0
+2025-11-09 16:24:10,471 - INFO - ⏭️ Skipped: 46
+2025-11-09 16:24:10,471 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 16:24:15,476 - INFO - 
+============================================================
+2025-11-09 16:24:15,476 - INFO - 📝 Processing file 72/92: Sports_6.json
+2025-11-09 16:24:15,477 - INFO - ============================================================
+2025-11-09 16:24:15,477 - INFO - 🚀 Starting evaluation for: Sports_6.json
+2025-11-09 16:24:15,477 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_6.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 17:16:54,986 - INFO - ✅ Successfully completed evaluation for: Sports_6.json (took 52.66 minutes)
+2025-11-09 17:16:54,986 - INFO - 📊 Progress: 72/92 files processed
+2025-11-09 17:16:54,986 - INFO - ✅ Successful: 26
+2025-11-09 17:16:54,986 - INFO - ❌ Failed: 0
+2025-11-09 17:16:54,986 - INFO - ⏭️ Skipped: 46
+2025-11-09 17:16:54,986 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 17:16:59,991 - INFO - 
+============================================================
+2025-11-09 17:16:59,991 - INFO - 📝 Processing file 73/92: Sports_7.json
+2025-11-09 17:16:59,992 - INFO - ============================================================
+2025-11-09 17:16:59,992 - INFO - 🚀 Starting evaluation for: Sports_7.json
+2025-11-09 17:16:59,992 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_7.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 17:39:58,082 - INFO - ✅ Successfully completed evaluation for: Sports_7.json (took 22.97 minutes)
+2025-11-09 17:39:58,082 - INFO - 📊 Progress: 73/92 files processed
+2025-11-09 17:39:58,082 - INFO - ✅ Successful: 27
+2025-11-09 17:39:58,082 - INFO - ❌ Failed: 0
+2025-11-09 17:39:58,082 - INFO - ⏭️ Skipped: 46
+2025-11-09 17:39:58,082 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 17:40:03,088 - INFO - 
+============================================================
+2025-11-09 17:40:03,088 - INFO - 📝 Processing file 74/92: Sports_8.json
+2025-11-09 17:40:03,088 - INFO - ============================================================
+2025-11-09 17:40:03,088 - INFO - 🚀 Starting evaluation for: Sports_8.json
+2025-11-09 17:40:03,088 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_8.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 18:08:04,977 - INFO - ✅ Successfully completed evaluation for: Sports_8.json (took 28.03 minutes)
+2025-11-09 18:08:04,978 - INFO - 📊 Progress: 74/92 files processed
+2025-11-09 18:08:04,978 - INFO - ✅ Successful: 28
+2025-11-09 18:08:04,978 - INFO - ❌ Failed: 0
+2025-11-09 18:08:04,978 - INFO - ⏭️ Skipped: 46
+2025-11-09 18:08:04,978 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 18:08:09,983 - INFO - 
+============================================================
+2025-11-09 18:08:09,984 - INFO - 📝 Processing file 75/92: Sports_9.json
+2025-11-09 18:08:09,984 - INFO - ============================================================
+2025-11-09 18:08:09,984 - INFO - 🚀 Starting evaluation for: Sports_9.json
+2025-11-09 18:08:09,984 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Sports_9.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 18:43:51,102 - INFO - ✅ Successfully completed evaluation for: Sports_9.json (took 35.69 minutes)
+2025-11-09 18:43:51,103 - INFO - 📊 Progress: 75/92 files processed
+2025-11-09 18:43:51,103 - INFO - ✅ Successful: 29
+2025-11-09 18:43:51,103 - INFO - ❌ Failed: 0
+2025-11-09 18:43:51,103 - INFO - ⏭️ Skipped: 46
+2025-11-09 18:43:51,103 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 18:43:56,108 - INFO - 
+============================================================
+2025-11-09 18:43:56,108 - INFO - 📝 Processing file 76/92: TV_1.json
+2025-11-09 18:43:56,108 - INFO - ============================================================
+2025-11-09 18:43:56,108 - INFO - 🚀 Starting evaluation for: TV_1.json
+2025-11-09 18:43:56,108 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_1.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 19:24:23,403 - INFO - ✅ Successfully completed evaluation for: TV_1.json (took 40.45 minutes)
+2025-11-09 19:24:23,403 - INFO - 📊 Progress: 76/92 files processed
+2025-11-09 19:24:23,403 - INFO - ✅ Successful: 30
+2025-11-09 19:24:23,403 - INFO - ❌ Failed: 0
+2025-11-09 19:24:23,403 - INFO - ⏭️ Skipped: 46
+2025-11-09 19:24:23,403 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 19:24:28,409 - INFO - 
+============================================================
+2025-11-09 19:24:28,409 - INFO - 📝 Processing file 77/92: TV_10.json
+2025-11-09 19:24:28,409 - INFO - ============================================================
+2025-11-09 19:24:28,409 - INFO - 🚀 Starting evaluation for: TV_10.json
+2025-11-09 19:24:28,409 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_10.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 19:59:12,440 - INFO - ✅ Successfully completed evaluation for: TV_10.json (took 34.73 minutes)
+2025-11-09 19:59:12,440 - INFO - 📊 Progress: 77/92 files processed
+2025-11-09 19:59:12,440 - INFO - ✅ Successful: 31
+2025-11-09 19:59:12,440 - INFO - ❌ Failed: 0
+2025-11-09 19:59:12,440 - INFO - ⏭️ Skipped: 46
+2025-11-09 19:59:12,440 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 19:59:17,445 - INFO - 
+============================================================
+2025-11-09 19:59:17,445 - INFO - 📝 Processing file 78/92: TV_11.json
+2025-11-09 19:59:17,446 - INFO - ============================================================
+2025-11-09 19:59:17,446 - INFO - 🚀 Starting evaluation for: TV_11.json
+2025-11-09 19:59:17,446 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_11.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 20:32:21,093 - INFO - ✅ Successfully completed evaluation for: TV_11.json (took 33.06 minutes)
+2025-11-09 20:32:21,093 - INFO - 📊 Progress: 78/92 files processed
+2025-11-09 20:32:21,093 - INFO - ✅ Successful: 32
+2025-11-09 20:32:21,093 - INFO - ❌ Failed: 0
+2025-11-09 20:32:21,093 - INFO - ⏭️ Skipped: 46
+2025-11-09 20:32:21,093 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 20:32:26,099 - INFO - 
+============================================================
+2025-11-09 20:32:26,099 - INFO - 📝 Processing file 79/92: TV_2.json
+2025-11-09 20:32:26,099 - INFO - ============================================================
+2025-11-09 20:32:26,099 - INFO - 🚀 Starting evaluation for: TV_2.json
+2025-11-09 20:32:26,099 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_2.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 21:11:26,541 - INFO - ✅ Successfully completed evaluation for: TV_2.json (took 39.01 minutes)
+2025-11-09 21:11:26,541 - INFO - 📊 Progress: 79/92 files processed
+2025-11-09 21:11:26,542 - INFO - ✅ Successful: 33
+2025-11-09 21:11:26,542 - INFO - ❌ Failed: 0
+2025-11-09 21:11:26,542 - INFO - ⏭️ Skipped: 46
+2025-11-09 21:11:26,542 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 21:11:31,547 - INFO - 
+============================================================
+2025-11-09 21:11:31,547 - INFO - 📝 Processing file 80/92: TV_3.json
+2025-11-09 21:11:31,547 - INFO - ============================================================
+2025-11-09 21:11:31,547 - INFO - 🚀 Starting evaluation for: TV_3.json
+2025-11-09 21:11:31,548 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_3.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 21:59:26,568 - INFO - ✅ Successfully completed evaluation for: TV_3.json (took 47.92 minutes)
+2025-11-09 21:59:26,569 - INFO - 📊 Progress: 80/92 files processed
+2025-11-09 21:59:26,569 - INFO - ✅ Successful: 34
+2025-11-09 21:59:26,569 - INFO - ❌ Failed: 0
+2025-11-09 21:59:26,569 - INFO - ⏭️ Skipped: 46
+2025-11-09 21:59:26,569 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 21:59:31,574 - INFO - 
+============================================================
+2025-11-09 21:59:31,574 - INFO - 📝 Processing file 81/92: TV_4.json
+2025-11-09 21:59:31,574 - INFO - ============================================================
+2025-11-09 21:59:31,574 - INFO - 🚀 Starting evaluation for: TV_4.json
+2025-11-09 21:59:31,574 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_4.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-09 23:08:22,541 - INFO - ✅ Successfully completed evaluation for: TV_4.json (took 68.85 minutes)
+2025-11-09 23:08:22,542 - INFO - 📊 Progress: 81/92 files processed
+2025-11-09 23:08:22,542 - INFO - ✅ Successful: 35
+2025-11-09 23:08:22,542 - INFO - ❌ Failed: 0
+2025-11-09 23:08:22,542 - INFO - ⏭️ Skipped: 46
+2025-11-09 23:08:22,542 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-09 23:08:27,547 - INFO - 
+============================================================
+2025-11-09 23:08:27,547 - INFO - 📝 Processing file 82/92: TV_5.json
+2025-11-09 23:08:27,547 - INFO - ============================================================
+2025-11-09 23:08:27,547 - INFO - 🚀 Starting evaluation for: TV_5.json
+2025-11-09 23:08:27,548 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_5.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 00:00:58,076 - INFO - ✅ Successfully completed evaluation for: TV_5.json (took 52.51 minutes)
+2025-11-10 00:00:58,077 - INFO - 📊 Progress: 82/92 files processed
+2025-11-10 00:00:58,077 - INFO - ✅ Successful: 36
+2025-11-10 00:00:58,077 - INFO - ❌ Failed: 0
+2025-11-10 00:00:58,077 - INFO - ⏭️ Skipped: 46
+2025-11-10 00:00:58,077 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 00:01:03,082 - INFO - 
+============================================================
+2025-11-10 00:01:03,082 - INFO - 📝 Processing file 83/92: TV_6.json
+2025-11-10 00:01:03,082 - INFO - ============================================================
+2025-11-10 00:01:03,083 - INFO - 🚀 Starting evaluation for: TV_6.json
+2025-11-10 00:01:03,083 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_6.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 00:27:17,810 - INFO - ✅ Successfully completed evaluation for: TV_6.json (took 26.25 minutes)
+2025-11-10 00:27:17,811 - INFO - 📊 Progress: 83/92 files processed
+2025-11-10 00:27:17,811 - INFO - ✅ Successful: 37
+2025-11-10 00:27:17,811 - INFO - ❌ Failed: 0
+2025-11-10 00:27:17,811 - INFO - ⏭️ Skipped: 46
+2025-11-10 00:27:17,811 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 00:27:22,816 - INFO - 
+============================================================
+2025-11-10 00:27:22,816 - INFO - 📝 Processing file 84/92: TV_7.json
+2025-11-10 00:27:22,816 - INFO - ============================================================
+2025-11-10 00:27:22,817 - INFO - 🚀 Starting evaluation for: TV_7.json
+2025-11-10 00:27:22,817 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_7.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 01:08:56,821 - INFO - ✅ Successfully completed evaluation for: TV_7.json (took 41.57 minutes)
+2025-11-10 01:08:56,821 - INFO - 📊 Progress: 84/92 files processed
+2025-11-10 01:08:56,821 - INFO - ✅ Successful: 38
+2025-11-10 01:08:56,821 - INFO - ❌ Failed: 0
+2025-11-10 01:08:56,821 - INFO - ⏭️ Skipped: 46
+2025-11-10 01:08:56,821 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 01:09:01,826 - INFO - 
+============================================================
+2025-11-10 01:09:01,827 - INFO - 📝 Processing file 85/92: TV_8.json
+2025-11-10 01:09:01,827 - INFO - ============================================================
+2025-11-10 01:09:01,827 - INFO - 🚀 Starting evaluation for: TV_8.json
+2025-11-10 01:09:01,827 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_8.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 01:42:46,585 - INFO - ✅ Successfully completed evaluation for: TV_8.json (took 33.75 minutes)
+2025-11-10 01:42:46,586 - INFO - 📊 Progress: 85/92 files processed
+2025-11-10 01:42:46,586 - INFO - ✅ Successful: 39
+2025-11-10 01:42:46,586 - INFO - ❌ Failed: 0
+2025-11-10 01:42:46,586 - INFO - ⏭️ Skipped: 46
+2025-11-10 01:42:46,586 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 01:42:51,591 - INFO - 
+============================================================
+2025-11-10 01:42:51,591 - INFO - 📝 Processing file 86/92: TV_9.json
+2025-11-10 01:42:51,591 - INFO - ============================================================
+2025-11-10 01:42:51,591 - INFO - 🚀 Starting evaluation for: TV_9.json
+2025-11-10 01:42:51,592 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/TV_9.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 02:27:06,058 - INFO - ✅ Successfully completed evaluation for: TV_9.json (took 44.24 minutes)
+2025-11-10 02:27:06,059 - INFO - 📊 Progress: 86/92 files processed
+2025-11-10 02:27:06,059 - INFO - ✅ Successful: 40
+2025-11-10 02:27:06,059 - INFO - ❌ Failed: 0
+2025-11-10 02:27:06,059 - INFO - ⏭️ Skipped: 46
+2025-11-10 02:27:06,059 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 02:27:11,064 - INFO - 
+============================================================
+2025-11-10 02:27:11,064 - INFO - 📝 Processing file 87/92: Vg_1.json
+2025-11-10 02:27:11,064 - INFO - ============================================================
+2025-11-10 02:27:11,065 - INFO - 🚀 Starting evaluation for: Vg_1.json
+2025-11-10 02:27:11,065 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Vg_1.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 03:10:22,301 - INFO - ✅ Successfully completed evaluation for: Vg_1.json (took 43.19 minutes)
+2025-11-10 03:10:22,301 - INFO - 📊 Progress: 87/92 files processed
+2025-11-10 03:10:22,302 - INFO - ✅ Successful: 41
+2025-11-10 03:10:22,302 - INFO - ❌ Failed: 0
+2025-11-10 03:10:22,302 - INFO - ⏭️ Skipped: 46
+2025-11-10 03:10:22,302 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 03:10:27,307 - INFO - 
+============================================================
+2025-11-10 03:10:27,307 - INFO - 📝 Processing file 88/92: Vg_2.json
+2025-11-10 03:10:27,307 - INFO - ============================================================
+2025-11-10 03:10:27,307 - INFO - 🚀 Starting evaluation for: Vg_2.json
+2025-11-10 03:10:27,307 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Vg_2.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 03:45:01,988 - INFO - ✅ Successfully completed evaluation for: Vg_2.json (took 34.58 minutes)
+2025-11-10 03:45:01,988 - INFO - 📊 Progress: 88/92 files processed
+2025-11-10 03:45:01,988 - INFO - ✅ Successful: 42
+2025-11-10 03:45:01,988 - INFO - ❌ Failed: 0
+2025-11-10 03:45:01,988 - INFO - ⏭️ Skipped: 46
+2025-11-10 03:45:01,988 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 03:45:06,993 - INFO - 
+============================================================
+2025-11-10 03:45:06,994 - INFO - 📝 Processing file 89/92: Vg_3.json
+2025-11-10 03:45:06,994 - INFO - ============================================================
+2025-11-10 03:45:06,994 - INFO - 🚀 Starting evaluation for: Vg_3.json
+2025-11-10 03:45:06,994 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Vg_3.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 04:08:41,175 - INFO - ✅ Successfully completed evaluation for: Vg_3.json (took 23.57 minutes)
+2025-11-10 04:08:41,175 - INFO - 📊 Progress: 89/92 files processed
+2025-11-10 04:08:41,175 - INFO - ✅ Successful: 43
+2025-11-10 04:08:41,175 - INFO - ❌ Failed: 0
+2025-11-10 04:08:41,175 - INFO - ⏭️ Skipped: 46
+2025-11-10 04:08:41,175 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 04:08:46,180 - INFO - 
+============================================================
+2025-11-10 04:08:46,180 - INFO - 📝 Processing file 90/92: Vg_4.json
+2025-11-10 04:08:46,181 - INFO - ============================================================
+2025-11-10 04:08:46,181 - INFO - 🚀 Starting evaluation for: Vg_4.json
+2025-11-10 04:08:46,181 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Vg_4.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 04:31:59,532 - INFO - ✅ Successfully completed evaluation for: Vg_4.json (took 23.22 minutes)
+2025-11-10 04:31:59,533 - INFO - 📊 Progress: 90/92 files processed
+2025-11-10 04:31:59,533 - INFO - ✅ Successful: 44
+2025-11-10 04:31:59,533 - INFO - ❌ Failed: 0
+2025-11-10 04:31:59,533 - INFO - ⏭️ Skipped: 46
+2025-11-10 04:31:59,533 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 04:32:04,538 - INFO - 
+============================================================
+2025-11-10 04:32:04,538 - INFO - 📝 Processing file 91/92: Vg_5.json
+2025-11-10 04:32:04,538 - INFO - ============================================================
+2025-11-10 04:32:04,539 - INFO - 🚀 Starting evaluation for: Vg_5.json
+2025-11-10 04:32:04,539 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Vg_5.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 05:01:12,199 - INFO - ✅ Successfully completed evaluation for: Vg_5.json (took 29.13 minutes)
+2025-11-10 05:01:12,200 - INFO - 📊 Progress: 91/92 files processed
+2025-11-10 05:01:12,200 - INFO - ✅ Successful: 45
+2025-11-10 05:01:12,200 - INFO - ❌ Failed: 0
+2025-11-10 05:01:12,200 - INFO - ⏭️ Skipped: 46
+2025-11-10 05:01:12,200 - INFO - ⏳ Waiting 5 seconds before next evaluation...
+2025-11-10 05:01:17,205 - INFO - 
+============================================================
+2025-11-10 05:01:17,205 - INFO - 📝 Processing file 92/92: Vg_6.json
+2025-11-10 05:01:17,205 - INFO - ============================================================
+2025-11-10 05:01:17,205 - INFO - 🚀 Starting evaluation for: Vg_6.json
+2025-11-10 05:01:17,205 - INFO - 📝 Command: /home/zyh/.conda/envs/Yuhao_dr/bin/python evaluate.py /data/zyh/DeepResearch/HalluBench_backup_0828/data/train/close-source/gemini/BrowseComp/json/Vg_6.json --num_gpus 4 --gpu_ids 0,1,2,3
+2025-11-10 05:31:44,630 - INFO - ✅ Successfully completed evaluation for: Vg_6.json (took 30.46 minutes)
+2025-11-10 05:31:44,630 - INFO - 📊 Progress: 92/92 files processed
+2025-11-10 05:31:44,630 - INFO - ✅ Successful: 46
+2025-11-10 05:31:44,630 - INFO - ❌ Failed: 0
+2025-11-10 05:31:44,630 - INFO - ⏭️ Skipped: 46
+2025-11-10 05:31:44,630 - INFO - 
+================================================================================
+2025-11-10 05:31:44,630 - INFO - 🎯 SEQUENTIAL EVALUATION COMPLETED
+2025-11-10 05:31:44,631 - INFO - ================================================================================
+2025-11-10 05:31:44,631 - INFO - ⏱️ Total time: 1845.27 minutes (30.75 hours)
+2025-11-10 05:31:44,631 - INFO - 📊 Total files: 92
+2025-11-10 05:31:44,631 - INFO - ✅ Successful: 46
+2025-11-10 05:31:44,631 - INFO - ❌ Failed: 0
+2025-11-10 05:31:44,631 - INFO - ⏭️ Skipped: 46
+2025-11-10 05:31:44,631 - INFO - 📝 Processed: 46
+2025-11-10 05:31:47,993 - INFO - 💾 Detailed results saved to: /data/zyh/DeepResearch/HalluBench_backup_0828/HalluDetector/script_reframe/sequential_eval_results.json
+2025-11-10 05:31:47,993 - INFO - 
+🎉 Sequential evaluation completed!
