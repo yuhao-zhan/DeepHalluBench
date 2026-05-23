@@ -1,0 +1,30 @@
+{
+    "llm": {
+        "provider": "openai",
+        "model": "gpt-4o",
+        "api_key": "YOUR_API_KEY_HERE",
+        "base_url": "https://api.openai.com/v1",
+        "max_tokens": 4096,
+        "temperature": 0.1
+    },
+    "nli": {
+        "model_name": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+        "threshold": 0.95
+    },
+    "embedding": {
+        "model_name": "BAAI/bge-large-zh-v1.5"
+    },
+    "reranker": {
+        "model_name": "BAAI/bge-reranker-large"
+    },
+    "nli_threshold": 0.95,
+    "similarity_threshold": 0.4,
+    "top_k_chunks": 5,
+    "chunk_overlap": 3,
+    "chunk_size": 15,
+    "gpu_ids": [0],
+    "num_gpus": 1,
+    "cache_dir": "./cache",
+    "output_dir": "./results",
+    "max_workers": 8
+}
