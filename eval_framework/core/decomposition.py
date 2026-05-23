@@ -571,7 +571,7 @@ Extract all factual claims from this paragraph."""
         """Decompose reasoning text (mixed format) into actions and claims."""
         if not self.llm_client:
             # Fallback: return raw text as single action (reference always uses LLM)
-            return {"actions": [{"action": text, "type": "reasoning"}], "claims": []}
+            return [{"action": text, "type": "reasoning"}]
 
         prompt = f"""Query: {query}
 

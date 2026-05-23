@@ -141,9 +141,6 @@ class DeepHalluBench:
         output_dir: Optional[str] = None,
         max_claims: Optional[int] = None,
         max_actions: Optional[int] = None,
-        skip_noise: bool = False,
-        skip_actions: bool = False,
-        skip_claims: bool = False,
     ) -> Dict[str, Any]:
         """
         Evaluate a research trajectory for hallucinations.
@@ -154,9 +151,6 @@ class DeepHalluBench:
             output_dir: Directory to save results
             max_claims: If set, sample only this many claims for verification (demo mode)
             max_actions: If set, sample only this many actions for verification (demo mode)
-            skip_noise: Skip noise domination detection
-            skip_actions: Skip action verification
-            skip_claims: Skip claim verification
 
         Returns:
             Dictionary containing:
@@ -290,16 +284,12 @@ class DeepHalluBench:
 
         # Steps 2-6: Verification — results saved only to results/, NOT to json_cache
         # Claim verification runs FIRST (reference order) so Claim Memory is available for action checking
-        if skip_claims:
-            print("\n[2/7] Verifying claims — SKIPPED (--skip-claims)")
+        print("\n[2/7] Verifying claims (Grounding/Explicit Summarization)...")
+        try:
+            claim_results = self.claim_verifier.verify(verifier_data, query, max_claims=max_claims)
+        except Exception as e:
+            print(f"⚠️ Claim verification error: {e}")
             claim_results = self._empty_claim_results()
-        else:
-            print("\n[2/7] Verifying claims (Grounding/Explicit Summarization)...")
-            try:
-                claim_results = self.claim_verifier.verify(verifier_data, query, max_claims=max_claims)
-            except Exception as e:
-                print(f"⚠️ Claim verification error: {e}")
-                claim_results = self._empty_claim_results()
 
         # Persist top_k_chunks to json_cache only (not in output results)
         top_k_chunks = claim_results.pop("_top_k_chunks", claim_results.pop("top_k_chunks", {}))
@@ -320,15 +310,11 @@ class DeepHalluBench:
         claim_memory = claim_results  # full claim results for Claim Memory context
 
         print("\n[3/7] Verifying actions (Intent/Explicit Planning)...")
-        if skip_actions:
-            print("  ⏭️  Skipped (--skip-actions)")
+        try:
+            action_results = self.action_checker.verify(verifier_data, query, max_actions=max_actions, claim_memory=claim_memory)
+        except Exception as e:
+            print(f"⚠️ Action checking error: {e}")
             action_results = self._empty_action_results()
-        else:
-            try:
-                action_results = self.action_checker.verify(verifier_data, query, max_actions=max_actions, claim_memory=claim_memory)
-            except Exception as e:
-                print(f"⚠️ Action checking error: {e}")
-                action_results = self._empty_action_results()
 
         print("\n[4/7] Checking constraints (Intent/Implicit Planning)...")
         try:
@@ -338,15 +324,11 @@ class DeepHalluBench:
             constraint_results = self._empty_constraint_results()
 
         print("\n[5/7] Detecting noise domination (Implicit Summarization)...")
-        if skip_noise:
-            print("  ⏭️  Skipped (--skip-noise)")
+        try:
+            noise_results = self.noise_detector.detect(verifier_data, claim_results)
+        except Exception as e:
+            print(f"⚠️ Noise detection error: {e}")
             noise_results = self._empty_noise_results()
-        else:
-            try:
-                noise_results = self.noise_detector.detect(verifier_data, claim_results)
-            except Exception as e:
-                print(f"⚠️ Noise detection error: {e}")
-                noise_results = self._empty_noise_results()
 
         print("\n[6/7] Detecting propagation hallucinations...")
         propagation_results = self._detect_propagation(verifier_data, claim_results)
@@ -531,14 +513,16 @@ class DeepHalluBench:
         )
 
     def _normalize_for_verifiers(self, decomposed: Dict[str, Any]) -> Dict[str, Any]:
-        """Convert new cache format to what verifiers expect.
+        """Convert new cache format to what verifiers expect."""
+        # Extract all claims: from iterations + from report paragraphs
+        all_claims = list(decomposed.get("all_claims", []))
+        for para in decomposed.get("report", []):
+            for claim_text in para.get("atomic_claims", []):
+                all_claims.append({"claim": claim_text, "source": "report"})
 
-        Note: claims and report_claims are kept separate here; ClaimVerifier.verify()
-        concatenates them explicitly (claims + report_claims).
-        """
         return {
             "actions": decomposed.get("all_actions", []),
-            "claims": decomposed.get("all_claims", []),
+            "claims": all_claims,
             "report_claims": [{"claim": c, "source": "report"}
                               for rp in decomposed.get("report", [])
                               for c in rp.get("atomic_claims", [])],
@@ -655,6 +639,10 @@ class DeepHalluBench:
                     for claim_text in value:
                         claims.append({"claim": claim_text, "iteration": iter_num})
         return claims
+
+
+        decomposed["chunk_score"] = chunk_score
+        return decomposed
 
     def _compute_related_query(self, decomposed: Dict[str, Any]) -> Dict[str, Any]:
         """Compute claim→sub-query mapping using BGE reranker."""
